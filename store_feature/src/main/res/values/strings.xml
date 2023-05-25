@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FakeStore</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="card_menu">\u25CF</string>
+    <string name="like_menu">\u25CF</string>
+    <string name="profile_menu">\u25CF</string>
+    <string name="explorer_menu">\u25CF</string>
+
+    <string name="product_details">Product Details</string>
+    <string name="select_category">Select Category</string>
+    <string name="best_seller">Best Seller</string>
+    <string name="app_label">Fake Store</string>
+    <string name="search_hint">search products</string>
+    <string name="exist_in_card">Already exist</string>
+    <string name="my_cart">My Cart</string>
+    <string name="back">back</string>
+    <string name="dialog_message_no_gps">Разрешите доступ к геолокации, если хотите
+                                         узнать погоду текущего места</string>
+    <string name="dialog_title_no_gps">Доступ к геолокации закрыт</string>
+    <string name="dialog_button_close">Закрыть</string>
+    <string name="dialog_rationale_title">Доступ к геолокации</string>
+    <string name="dialog_rationale_meaasge">Объяснение</string>
+    <string name="dialog_rationale_give_access">Предоставить доступ</string>
+    <string name="dialog_rationale_decline">Не надо</string>
+    <string name="productimage">productImage</string>
+    <string name="done">Done</string>
+</resources>

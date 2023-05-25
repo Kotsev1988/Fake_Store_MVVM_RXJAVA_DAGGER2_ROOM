@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/explorer"
+        android:title="@string/explorer_menu"
+        android:visible="true"
+        android:menuCategory="secondary"
+        android:icon="@drawable/explorer" />
+
+    <item android:id="@+id/myCart"
+        android:title="@string/card_menu"
+        android:visible="true"
+        android:menuCategory="secondary"
+        android:icon="@drawable/ic_card_menu" />
+
+    <item android:id="@+id/likes_Fragment"
+        android:title="@string/like_menu"
+        android:menuCategory="secondary"
+        android:icon="@drawable/ic_like" />
+
+    <item android:id="@+id/myProfile"
+        android:title="@string/profile_menu"
+        android:menuCategory="secondary"
+        android:icon="@drawable/ic_profile" />
+
+</menu>

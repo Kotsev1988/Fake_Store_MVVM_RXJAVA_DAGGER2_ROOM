@@ -1,0 +1,24 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "FakeStore"
+include ':app'
+include ':store_feature'
+include ':my_card_feature'
+include ':core'
+include ':model'
+include ':mylibrary'
+include ':navigation'
+include ':product_detail_feature'
+include ':favorites_feature'

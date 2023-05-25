@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppBottomSheetDialogTheme"
+        parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+    <style name="AppModalStyle"
+        parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bottom_sheet_background</item>
+    </style>
+
+    <style name="ScoreButtons">
+    </style>
+
+    <style name="PlusButtons" parent="ScoreButtons">
+        <item name="android:src">@drawable/plus_button</item>
+    </style>
+
+    <style name="MinusButtons" parent="ScoreButtons">
+        <item name="android:src">@drawable/minus_button</item>
+    </style>
+
+    <style name="ScoreText">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Headline</item>
+    </style>
+
+    <style name="MyBottomAppBarStyle" parent="Widget.Material3.BottomAppBar">
+        <item name="backgroundTint">#9070CA</item>
+        <item name="navigationIconTint">#CDBAEF</item>
+    </style>
+
+    <style name="MyBottomNavBar" parent="Widget.Material3.BottomNavigationView">
+        <item name="android:background">#010035</item>
+        <item name="itemTextAppearanceActive">@style/MyText</item>
+        <item name="itemIconTint">@color/my_color_icontint_navigationbottom</item>
+        <item name="itemTextColor">@color/my_selector_botton_navigation_view</item>
+        <item name="itemRippleColor">@color/my_item_riiple_color</item>
+        <item name="itemActiveIndicatorStyle">@style/MyActiveIndicator</item>
+        <item name="labelVisibilityMode">selected</item>
+
+    </style>
+
+    <style name="MyActiveIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">#010035</item>
+    </style>
+
+    <style name="MyText" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="helperTextTextColor">#8BE48E</item>
+        <item name="boxBackgroundColor">#DAD28E</item>
+        <item name="colorOnSurface">#0C0300</item>
+        <item name="placeholderTextAppearance">@style/MyTextAppearance</item>
+        <item name="helperTextTextAppearance">@style/MyTextAppearance</item>
+        <item name="shapeAppearanceOverlay">@style/MyTextAppearance</item>
+        <item name="hintTextAppearance">@style/MyTextAppearance</item>
+        <item name="counterTextAppearance">@style/MyTextAppearance</item>
+        <item name="counterOverflowTextAppearance">@style/MyTextAppearance</item>
+
+    </style>
+    <style name="MyTextAppearance" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:letterSpacing">0.0178571429</item>
+    </style>
+    <style name="MyShapeAppearance" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">10dp</item>
+    </style>
+
+    <style name="MyShapeAppearanceCardView" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">30dp</item>
+    </style>
+
+</resources>
